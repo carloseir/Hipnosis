@@ -46,7 +46,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         self.animador = UIDynamicAnimator(referenceView: vistaHipnosis)
         self.gravedad = UIGravityBehavior()
-        self.gravedad.magnitude = 1
+        self.gravedad.magnitude = 1.5
         //self.gravedad.angle = 0.25 * Double.pi
         self.animador.addBehavior(gravedad)
         
